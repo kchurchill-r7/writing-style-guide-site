@@ -11,3 +11,5 @@ fields:
 - type: number
   name: nav_order
   label: nav_order
+pages:
+- docs/goals-and-principles.md

@@ -29,5 +29,3 @@ fields:
   config:
     required: false
   label: Parent
-pages:
-- docs/goals-and-principles.md
