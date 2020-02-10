@@ -5,15 +5,27 @@ fields:
 - type: text
   name: layout
   label: layout
+  config:
+    required: true
+  default: default
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: number
   name: nav_order
   label: nav_order
+  config:
+    required: true
 - type: boolean
   name: has_children
   label: has_children
 - type: text
   name: permalink
   label: permalink
+- name: parent
+  type: text
+  config:
+    required: false
+  label: Parent
